@@ -1,0 +1,74 @@
+
+.register-page {
+    background-color: #1b1b2f;
+    color: white;
+    height: 100vh;
+  }
+  
+  .form-box {
+    background-color: #1b1b2f;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-box h2 {
+    font-weight: 700;
+    color: #e94560;
+    margin-bottom: 20px;
+  }
+  
+  .form-input{
+    background-color: transparent;
+    /* border: 2px solid #e94560; */
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  .form-input:focus {
+    background-color: transparent;
+    border-color: #e94560;
+    box-shadow: none;
+    color: white;
+  }
+  
+  .form-input:-webkit-autofill,
+.form-input:-webkit-autofill:hover,
+.form-input:-webkit-autofill:focus,
+.form-input:-webkit-autofill:active {
+    background: transparent !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important; /* Ensure text color remains white */
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important; /* Remove autofill shadow */
+    transition: background-color 5000s ease-in-out 0s; /* This helps override the default behavior */
+}
+
+
+.form-input::placeholder {
+  color: rgba(255, 255, 255, 0.587); 
+  opacity:1; 
+}
+  .error-text {
+    color: #f72585;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e94560;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover {
+    background-color: #d63d54;
+  }
+  

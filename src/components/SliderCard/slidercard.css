@@ -1,0 +1,70 @@
+.homeSlide .box {
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    min-height: 450px; 
+    /* padding: 60px 0; */
+    color: #fff; /* Text color to contrast with background */
+    
+  }
+.homeSlide .box {
+    margin-top: 0px;
+    padding: 50px 0px 60px 60px;
+}
+
+.homeSlide h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 50px 0 20px 0;
+}
+
+.homeSlide p {
+    margin: 20px 0;
+}
+
+.homeSlide ul {
+    position: absolute;
+    bottom: 20px;
+}
+
+.homeSlide ul li {
+    border: 2px solid #b8b7b7;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: black;
+}
+.shop-link {
+    text-decoration: none; 
+    padding: 10px 10px;   
+    background-color: #dd220d; 
+    color: white;             
+    border-radius: 7px;       
+  }
+  
+  .shop-link:hover {
+    text-decoration: none; 
+    background-color: rgb(181, 1, 1);        
+  }
+  
+
+.homeSlide ul li button::before {
+    font-size: 15px !important;
+    color: #0f3460;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    margin: auto;
+   
+}
+
+@media (max-width: 767px) {
+   .homeSlide .box {
+      min-height: 200px;
+      padding-top:0px ;
+    }
+  }
+/* .homeSlide .box img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+} */
